@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "watchy -w . -i /node_modules/ -- node scripts/build.js"
+    "build": "bin/build-templates.js",
+    "watch": "watchy -w templates -w config.js -- bin/build-templates.js"
   },
   "keywords": [],
   "author": "",
