@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchy -w . -i /node_modules/ -- node scripts/build.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "express-react-views": "^0.10.2",
+    "glob": "^7.1.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
 }
