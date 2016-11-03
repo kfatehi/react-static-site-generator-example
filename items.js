@@ -1,6 +1,6 @@
 module.exports = [{
   name: "Critique",
-  imgSrc: "/img/critique.png",
+  imgSrc: "img/critique.png",
   description: `
   Critique is a mobile-first video collaboration software used
   by many productions. I developed the web interface, backend, and
@@ -10,7 +10,7 @@ module.exports = [{
   `
 },{
   name: 'Crumple',
-  imgSrc: "/img/crumple.png",
+  imgSrc: "img/crumple.png",
   description: `
   Crumple is a failed startup of mine in which we created an
   electronic receipt solution. It worked by intercepting the
@@ -27,7 +27,7 @@ module.exports = [{
   `
 },{
   name: 'React Midterm',
-  imgSrc: '/img/placeholder.jpg',
+  imgSrc: 'img/placeholder.jpg',
   description: `
   This website is pretty cool, so I have included it here
   in my portfolio. The graphic design may not be so great
