@@ -34,7 +34,7 @@ module.exports = [{
   but the technical statement it is making is important. Too
   many websites now require JavaScript and won't even render
   without it. This website uses JavaScript, heavily, but it
-  will render exactly the same on a server with or without
+  will render exactly the same on a browser with or without
   JavaScript enabled.
   `
 }]
