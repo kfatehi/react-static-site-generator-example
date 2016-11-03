@@ -3,9 +3,6 @@ var Layout = require('./Layout.jsx');
 
 
 module.exports = ({
-  config: {
-    webRoot
-  },
   item: {
     name,
     imgSrc,
@@ -14,9 +11,9 @@ module.exports = ({
 }) =>
 <Layout title={`Portfolio: ${name}`}>
   <div className="banner">
-    <img className="detail-image" src={webRoot+imgSrc}/>
+    <img className="detail-image" src={imgSrc}/>
   </div>
   <p className="blurb" dangerouslySetInnerHTML={{__html: description}}/>
   <hr/>
-  <a href={webRoot+'index.html'}>Back</a>
+  <a href='index.html'>Back</a>
 </Layout>

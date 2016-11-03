@@ -19,8 +19,7 @@ function createRenderer(templateRoot) {
 
 createRenderer(config.templateRoot).then(render => {
   return Promise.map(config.buildTemplates, item => {
-    const params = Object.assign({},{ config }, item.params)
-    return render(item.template, params).then(html => {
+    return render(item.template, item.params).then(html => {
       const out = path.join(config.htmlRoot, item.output);
       return writeFile(out, html).then(() =>
         console.log('wrote '+path.basename(out)))

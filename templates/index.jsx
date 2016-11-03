@@ -2,9 +2,6 @@ var React = require('react');
 var Layout = require('./Layout.jsx');
 
 module.exports = ({
-  config: {
-    webRoot
-  },
   items
 }) =>
 <Layout title="Midterm">
@@ -18,7 +15,7 @@ module.exports = ({
     </p>
     <p>
       Items are described in
-      a <a href={webRoot+"items.js"}>JavaScript file</a> which
+      a <a href="items.js">JavaScript file</a> which
       is used to generate the static markup you see here.
       I wanted to show that modern web tooling such as Node and
       React can be used to build a website without forcing the users
@@ -43,8 +40,8 @@ module.exports = ({
       imgSrc
     }, i) =>
     <div className="item" key={i}>
-      <a href={`${webRoot}item-${i}`}>
-        <img src={webRoot+imgSrc}/>
+      <a href={`item-${i}.html`}>
+        <img src={imgSrc}/>
         {name}
       </a>
     </div>)}
