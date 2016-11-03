@@ -8,11 +8,11 @@ module.exports = ({
     description
   }
 }) =>
-<Layout title={`Portfolio > ${name}`}>
+<Layout title={`Portfolio: ${name}`}>
   <div className="banner">
     <img className="detail-image" src={imgSrc}/>
   </div>
-  <p className="blurb">{description}</p>
+  <p className="blurb" dangerouslySetInnerHTML={{__html: description}}/>
   <hr/>
   <a href="/">Back</a>
 </Layout>
