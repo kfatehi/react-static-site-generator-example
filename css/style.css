@@ -1,0 +1,65 @@
+body {
+  color: #F6FFF7;
+  background-color: #211619;
+  font-family: helvetica;
+  margin: 40px 100px 100px 100px;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 40px;
+  }
+}
+
+a {
+  color: #FFAABB;
+}
+
+a:visited {
+  color: #C88285;
+}
+
+a:hover {
+  color: #D38D9B;
+}
+
+.banner {
+  text-align: center;
+  font-size: 2em;
+}
+
+.blurb {
+  text-align: justify;
+}
+
+.portfolio-items {
+  text-align: center;
+}
+
+.portfolio-items .item {
+  display: inline-block;
+  text-align: center;
+  padding: 40px;
+}
+
+@media (max-width: 800px) {
+  .portfolio-items .item {
+    padding: 10px;
+  }
+}
+
+
+.portfolio-items .item img {
+  width: 14em;
+  display:block;
+  opacity: 0.8;
+}
+
+.portfolio-items .item img:hover {
+  opacity: 1;
+}
+
+.banner img {
+  width: 10em;
+  text-align: center;
+}

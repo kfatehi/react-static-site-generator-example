@@ -1,14 +1,5 @@
+const items = require('./items.js');
 const path = require('path');
-
-var items = [{
-  name: "foo"
-},{
-  name: 'bar'
-}]
-
-function itemsDetails() {
-  
-}
 
 module.exports = {
   templateRoot: path.join(__dirname, '/templates'),
@@ -19,7 +10,7 @@ module.exports = {
     params: { items }
   }].concat(items.map((item, i)=>({
     template: 'detail.jsx',
-    output: `detail-${i}.html`,
+    output: `item-${i}.html`,
     params: { item }
   })))
 }
