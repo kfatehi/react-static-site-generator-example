@@ -16,11 +16,15 @@ module.exports = ({
       : null }
   </head>
   <body>
-    <header><Nav /></header>
-    <hr/>
+    <header>
+      <Nav />
+      <hr/>
+    </header>
     <section>{children}</section>
-    <hr/>
-    <footer>Copyright 2016, Keyvan Fatehi</footer>
+    <footer>
+      <hr/>
+      Copyright 2016, Keyvan Fatehi
+    </footer>
   </body>
 </html>
 
