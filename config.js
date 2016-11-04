@@ -8,6 +8,9 @@ module.exports = {
     template: 'index.jsx',
     output: 'index.html',
     params: { items }
+  },{
+    template: 'bio.jsx',
+    output: 'bio.html'
   }].concat(items.map((item, i)=>({
     template: 'detail.jsx',
     output: `item-${i}.html`,

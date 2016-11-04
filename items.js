@@ -26,8 +26,8 @@ module.exports = [{
   <a href="http://keyvanfatehi.com/2016/01/19/Crumple-a-post-mortem/">direct link</a>.
   `
 },{
-  name: 'React Midterm',
-  imgSrc: 'img/placeholder.jpg',
+  name: 'Midterm',
+  imgSrc: 'img/this.png',
   description: `
   This website is pretty cool, so I have included it here
   in my portfolio. The graphic design may not be so great

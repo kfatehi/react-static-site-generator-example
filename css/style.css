@@ -11,6 +11,14 @@ body {
   }
 }
 
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding: 0 20px;
+}
+
 a {
   color: #FFAABB;
 }

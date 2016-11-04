@@ -1,5 +1,5 @@
 var React = require('react');
-var Layout = require('./Layout.jsx');
+var Layout = require('./layout.jsx');
 
 module.exports = ({
   items
