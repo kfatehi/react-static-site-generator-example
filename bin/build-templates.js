@@ -18,12 +18,17 @@ function createRenderer(templateRoot) {
 }
 
 createRenderer(config.templateRoot).then(render => {
-  return Promise.map(config.buildTemplates, item => {
-    return render(item.template, item.params).then(html => {
-      const out = path.join(config.htmlRoot, item.output);
-      return writeFile(out, html).then(() =>
+  return Promise.map(config.buildTargets, item => {
+    const out = path.join(config.htmlRoot, item.output);
+    if ( item.template ) {
+      return render(item.template, item.params).then(html => {
+        return writeFile(out, html).then(() =>
+          console.log('wrote '+path.basename(out)))
+      })
+    } else if ( item.generate ) {
+      return writeFile(out, item.generate()).then(() =>
         console.log('wrote '+path.basename(out)))
-    })
+    }
   })
 }).catch(err => {
   if ( err ) {
