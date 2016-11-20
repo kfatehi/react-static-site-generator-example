@@ -7,7 +7,7 @@ const assets = require('shelljs').exec(`ls -1 ${assetDir}`, {silent: true}).stdo
 module.exports = ({
   items
 }) =>
-<Layout title="Research" stylesheet="bio">
+<Layout title="Final" stylesheet="bio">
   <h1>Steps taken in conducting research and testing</h1>
   <ul>
     <li>Prepared a test environment</li>
