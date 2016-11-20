@@ -2,7 +2,7 @@ var React = require('react');
 var Layout = require('./layout.jsx');
 
 const assetDir = require('path').join(__dirname, '..', 'assets');
-const assets = require('shelljs').exec(`ls -1 ${assetDir}`).stdout.trim().split('\n');
+const assets = require('shelljs').exec(`ls -1 ${assetDir}`, {silent: true}).stdout.trim().split('\n');
 
 module.exports = ({
   items
