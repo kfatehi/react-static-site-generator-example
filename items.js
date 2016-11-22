@@ -26,7 +26,7 @@ module.exports = [{
   <a href="http://keyvanfatehi.com/2016/01/19/Crumple-a-post-mortem/">direct link</a>.
   `
 },{
-  name: 'Midterm',
+  name: 'StaticPorfolio',
   imgSrc: 'img/this.png',
   description: `
   This website is pretty cool, so I have included it here

@@ -4,8 +4,8 @@ var Layout = require('./layout.jsx');
 module.exports = ({
   items
 }) =>
-<Layout title="Midterm">
-  <div className="banner">Welcome to my 133 Midterm!</div>
+<Layout title="StaticPortfolio">
+  <div className="banner">Welcome to my Static Portfolio!</div>
 
   <div className="blurb">
     <p>

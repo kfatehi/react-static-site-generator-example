@@ -10,7 +10,7 @@
         "description": "\n  Crumple is a failed startup of mine in which we created an\n  electronic receipt solution. It worked by intercepting the\n  communication between a point of sale computer and a receipt\n  printer. The customer then claimed the receipt \"over the air\"\n  using a smartphone with our app installed -- or simply entered\n  a phone number or email address. We developed all the hardware\n  and software for the\n  solution and even got it FCC certified. We had it deployed\n  successfully in two different stores, but the sales \"team\"\n  which was essentially just my partner, burned out and we\n  closed up shop. A post-mortem is published at my blog, at this\n  <a href=\"http://keyvanfatehi.com/2016/01/19/Crumple-a-post-mortem/\">direct link</a>.\n  "
     },
     {
-        "name": "Midterm",
+        "name": "StaticPorfolio",
         "imgSrc": "img/this.png",
         "description": "\n  This website is pretty cool, so I have included it here\n  in my portfolio. The graphic design may not be so great\n  but the technical statement it is making is important. Too\n  many websites now require JavaScript and won't even render\n  without it. This website uses JavaScript, heavily, but it\n  will render exactly the same on a browser with or without\n  JavaScript enabled.\n  "
     }

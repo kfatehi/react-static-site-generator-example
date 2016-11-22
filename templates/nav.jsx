@@ -6,6 +6,6 @@ module.exports = ({
 <nav>
   <a href="index.html">Home</a>
   <a href="bio.html">Bio</a>
-  <a href="item-2.html">Midterm</a>
-  <a href="final.html">Final</a>
+  <a href="item-2.html">This Site</a>
+  <a href="final.html">User Research</a>
 </nav>
