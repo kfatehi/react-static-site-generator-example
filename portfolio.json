@@ -12,6 +12,8 @@
     {
         "name": "StaticPorfolio",
         "imgSrc": "img/this.png",
+        "url": "https://kfatehi.github.io/react-static-site-generator-example/index.html",
+        "src": "https://github.com/kfatehi/react-static-site-generator-example",
         "description": "\n  This website is pretty cool, so I have included it here\n  in my portfolio. The graphic design may not be so great\n  but the technical statement it is making is important. Too\n  many websites now require JavaScript and won't even render\n  without it. This website uses JavaScript, heavily, but it\n  will render exactly the same on a browser with or without\n  JavaScript enabled.\n  "
     }
 ]

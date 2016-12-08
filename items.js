@@ -28,6 +28,8 @@ module.exports = [{
 },{
   name: 'StaticPorfolio',
   imgSrc: 'img/this.png',
+  url: "https://kfatehi.github.io/react-static-site-generator-example/index.html",
+  src: "https://github.com/kfatehi/react-static-site-generator-example",
   description: `
   This website is pretty cool, so I have included it here
   in my portfolio. The graphic design may not be so great
